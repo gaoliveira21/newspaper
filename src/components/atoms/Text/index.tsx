@@ -6,6 +6,7 @@ type TextProps = {
   weight?: 'normal' | 'bold'
   color?: 'heading' | 'body' | 'white'
   size?: 'base' | 'lg' | 'sm'
+  className?: string
 }
 
 export function Text({
@@ -13,11 +14,12 @@ export function Text({
   children,
   weight = 'normal',
   color = 'body',
-  size = 'base'
+  size = 'base',
+  className
 }: TextProps) {
 
   const Element = () => React.createElement(as, {
-    className: `text-${size} text-${color} font-${weight} font-text`,
+    className: `text-${size} text-${color} font-${weight} font-text ${className}`,
     children
   })
 
