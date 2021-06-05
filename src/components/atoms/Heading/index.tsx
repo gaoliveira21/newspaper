@@ -14,7 +14,7 @@ export function Heading({
 
   const size = {
     h2: 'text-5xl',
-    h3: 'text-4xl'
+    h3: 'text-4xl',
   }
 
   const Element = () => React.createElement(as, {

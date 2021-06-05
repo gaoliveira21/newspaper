@@ -5,7 +5,7 @@ type TextProps = {
   children: React.ReactNode
   weight?: 'normal' | 'bold'
   color?: 'heading' | 'body' | 'white'
-  size?: 'base' | 'lg' | 'sm'
+  size?:  'xl' | 'lg' |'base'  | 'sm'
   className?: string
 }
 

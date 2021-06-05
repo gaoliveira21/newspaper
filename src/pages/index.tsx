@@ -1,5 +1,5 @@
 import { Container, Heading } from "@/components/atoms";
-import { Banner, Navbar } from "@/components/molecules";
+import { Banner, Footer, Navbar } from "@/components/molecules";
 import { Header } from "@/components/organisms/Header";
 
 export default function Home() {
@@ -11,6 +11,7 @@ export default function Home() {
         <Heading className="text-center sm:order-first">Arts</Heading>
       </div>
       <Banner />
+      <Footer />
     </Container>
   )
 }
