@@ -1,5 +1,5 @@
 export default function Home() {
   return (
-    <h1>Hello</h1>
+    <h1 className="bg-primary font-heading">Hello</h1>
   )
 }
