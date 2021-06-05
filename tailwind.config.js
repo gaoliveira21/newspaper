@@ -13,7 +13,7 @@ module.exports = {
         text: ['Poppins']
       },
       minWidth: {
-        '200': '200px'
+        '200': '156px'
       }
     },
   },
