@@ -6,7 +6,7 @@ module.exports = {
       colors: {
         primary: '#F29F05',
         heading: '#131214',
-        text: '#716C65'
+        body: '#716C65'
       },
       fontFamily: {
         heading: ['Roboto Slab', 'serif'],
