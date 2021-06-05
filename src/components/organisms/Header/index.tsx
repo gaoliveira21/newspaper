@@ -1,5 +1,5 @@
 import { Button, Logo } from '@/components/atoms'
-import { Link } from '@/components/molecules/Link'
+import { Link } from '@/components/molecules'
 
 export function Header() {
   return (
@@ -12,7 +12,7 @@ export function Header() {
         <Logo />
 
         <div className="hidden md:flex items-center">
-          <Link href="#" classNames="mr-4">SIGN IN</Link>
+          <Link href="#" className="mr-4">SIGN IN</Link>
           <Button>SUBSCRIBE</Button>
         </div>
       </div>
