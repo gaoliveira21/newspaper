@@ -1,7 +1,7 @@
 import React from 'react'
 
 type TextProps = {
-  as?: 'p' | 'strong'
+  as?: 'p' | 'strong' | 'a'
   children: React.ReactNode
   weight?: 'normal' | 'bold'
   color?: 'heading' | 'body' | 'white'
