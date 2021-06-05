@@ -11,6 +11,9 @@ module.exports = {
       fontFamily: {
         heading: ['Roboto Slab', 'serif'],
         text: ['Poppins']
+      },
+      minWidth: {
+        '200': '200px'
       }
     },
   },
