@@ -1,8 +1,5 @@
-import { Button } from "@/components/atoms/Button";
-import { Container } from "@/components/atoms/Container";
+import { Button, Container, Logo, Text } from "@/components/atoms";
 import { Link } from "@/components/molecules/Link";
-import { Logo } from "@/components/atoms/Logo";
-import { Text } from "@/components/atoms/Text";
 
 export default function Home() {
   return (
