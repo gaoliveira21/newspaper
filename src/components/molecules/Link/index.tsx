@@ -10,8 +10,8 @@ type LinkProps = {
 export function Link({ href, children }: LinkProps) {
   return (
     <NextLink href={href}>
-      <Text>
-        <a className="hover:text-primary cursor-pointer">{children}</a>
+      <Text color="heading" weight="bold">
+        <a className="hover:text-primary cursor-pointer transition-colors duration-100">{children}</a>
       </Text>
     </NextLink>
   )

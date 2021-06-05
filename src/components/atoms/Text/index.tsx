@@ -11,8 +11,8 @@ type TextProps = {
 export function Text({
   as = 'p',
   children,
-  weight = 'bold',
-  color = 'heading',
+  weight = 'normal',
+  color = 'body',
   size = 'base'
 }: TextProps) {
 

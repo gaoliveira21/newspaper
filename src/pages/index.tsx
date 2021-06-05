@@ -9,7 +9,7 @@ export default function Home() {
     <Container>
       <Logo />
       <Button>subscribe</Button>
-      <Text>SIGN IN</Text>
+      <Text>The director Craig Gillespie discusses the formation of the title chara...</Text>
       <Link href="#">
         Link
       </Link>
