@@ -1,4 +1,10 @@
 {
+  "top_story": {
+    "id": 1,
+    "title": "Movie Museum Rethinks Exhibitions in Response to a Changing World",
+    "excerpt": "The Academy Museum of Motion Pictures, opening in September, has redesigned its galleries amid social movements like Black Lives Matter.",
+    "image": "/img/banner.png"
+  },
   "movies": [
     {
       "id": 1,

@@ -1,20 +1,25 @@
-import { Button, Contrast, Text } from "@/components/atoms";
+import { Button, Contrast, Text } from '@/components/atoms'
 
-export function Banner() {
+import { NewsModel } from '@/shared/models/News'
+
+type BannerProps = {
+  data: NewsModel
+}
+
+export function Banner({ data: { image, title, excerpt } }: BannerProps) {
   return (
     <div className="w-100 px-2 py-4 my-4 h-72 flex flex-col justify-end relative overflow-hidden ">
       <Contrast />
-      <img src="/img/banner.png" alt="Banner" className="absolute w-full top-0 left-0 h-full object-cover" />
+      <img src={image} alt="Banner" className="absolute w-full top-0 left-0 h-full object-cover" />
 
       <Text as="strong" size="lg" color="white" weight="bold" className="z-10">
-        Send in the Bugs. The Michelangelos Need Cleaning.
+        {title}
       </Text>
 
 
       <div className="sm:w-2/4 text-justify my-1 z-10">
         <Text color="white">
-          Last fall, with the Medici Chapel in Florence operating on reduced hours
-          because of Covid-19, scientists and restorers completed a secret expe...
+          {excerpt}
         </Text>
       </div>
 

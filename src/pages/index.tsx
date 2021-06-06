@@ -7,14 +7,15 @@ import { AppTemplate } from '@/components/templates/AppTemplate'
 import { NewsModel } from '@/shared/models/News'
 
 type HomeProps = {
+  topStory: NewsModel
   movies: NewsModel[],
   books: NewsModel[]
 }
 
-export default function Home({ books, movies }: HomeProps) {
+export default function Home({ books, movies, topStory }: HomeProps) {
   return (
     <AppTemplate>
-      <Banner />
+      <Banner data={topStory} />
 
       <NewsSection data={movies} title="Movies" />
       <NewsSection data={books} title="Books" />
@@ -29,14 +30,15 @@ export const getStaticProps: GetStaticProps = async () => {
   const responses = await Promise.all([
     fetch(`${BASE_URL}/movies`),
     fetch(`${BASE_URL}/books`),
+    fetch(`${BASE_URL}/top_story`)
   ])
 
   const news = await Promise.all(responses.map(response => response.json()))
 
-  const [movies, books] = news
+  const [movies, books, topStory] = news
 
   return {
-    props: { movies, books },
+    props: { movies, books, topStory },
     revalidate: 60
   }
 }
