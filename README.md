@@ -11,7 +11,7 @@
 
 <img src="./.github/newspaper.png">
 
-A aplicação consiste em um site de notícias, todo conteúdo foi extraido do [The New York Times](https://www.nytimes.com/) com o objetivo de apresentar dados mais reais ao projeto.
+A aplicação consiste em um site de notícias e todo conteúdo foi extraido do [The New York Times](https://www.nytimes.com/) com o objetivo de apresentar dados mais reais ao projeto.
 
 ## :hammer_and_wrench: Tecnologias
 
