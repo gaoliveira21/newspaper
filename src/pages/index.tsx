@@ -1,6 +1,6 @@
 import { Container, Heading } from "@/components/atoms";
-import { Banner, Footer, Navbar } from "@/components/molecules";
-import { Header } from "@/components/organisms/Header";
+import { Banner, Navbar } from "@/components/molecules";
+import { Header, Footer } from "@/components/organisms";
 
 export default function Home() {
   return (
