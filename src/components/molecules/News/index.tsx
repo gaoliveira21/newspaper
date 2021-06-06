@@ -1,4 +1,4 @@
-import { Text } from '@/components/atoms'
+import { Contrast, Text } from '@/components/atoms'
 import Image from 'next/image'
 
 export function News() {
@@ -12,7 +12,7 @@ export function News() {
           layout="responsive"
         />
         <div className="w-full h-full absolute top-0 flex items-end p-2">
-          <div className="w-full h-full bg-black absolute top-0 left-0 opacity-30" />
+          <Contrast />
           <Text as="strong" className="z-10" size="base" color="white" weight="bold">Watch Emma Stone Become ‘Cruella’</Text>
         </div>
       </div>

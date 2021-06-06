@@ -1,9 +1,9 @@
-import { Button, Text } from "@/components/atoms";
+import { Button, Contrast, Text } from "@/components/atoms";
 
 export function Banner() {
   return (
     <div className="w-100 px-2 py-4 my-4 h-72 flex flex-col justify-end relative overflow-hidden ">
-      <div className="w-full h-full bg-black z-10 absolute top-0 left-0 opacity-30" />
+      <Contrast />
       <img src="/img/banner.png" alt="Banner" className="absolute w-full top-0 left-0 h-full object-cover" />
 
       <Text as="strong" size="lg" color="white" weight="bold" className="z-10">
