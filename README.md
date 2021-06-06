@@ -9,6 +9,8 @@
 
 ---
 
+<img src="./.github/newspaper.png">
+
 ## :hammer_and_wrench: Tecnologias
 
 - [ReactJS](https://pt-br.reactjs.org/)
