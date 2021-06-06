@@ -9,7 +9,7 @@ type BannerProps = {
 export function Banner({ data: { image, title, excerpt } }: BannerProps) {
   return (
     <div className="w-100 px-2 py-4 my-4 h-72 flex flex-col justify-end relative overflow-hidden ">
-      <Contrast />
+      <Contrast percent="50" />
       <img src={image} alt="Banner" className="absolute w-full top-0 left-0 h-full object-cover" />
 
       <Text as="strong" size="lg" color="white" weight="bold" className="z-10">
