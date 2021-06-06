@@ -9,21 +9,22 @@ type TextProps = {
   className?: string
 }
 
-export function Text({
+export const Text = React.forwardRef(({
   as = 'p',
   children,
   weight = 'normal',
   color = 'body',
   size = 'base',
   className
-}: TextProps) {
+}: TextProps, ref) => {
 
   const Element = () => React.createElement(as, {
     className: `text-${size} text-${color} font-${weight} font-text ${className}`,
-    children
+    children,
+    ref
   })
 
   return (
     <Element />
   )
-}
+})
