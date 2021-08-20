@@ -4,7 +4,7 @@
   Aplicação desenvolvida para o evento de tecnologia realizada pela UNISAGRADO, no dia 9 de Junho de 2021.
 </p>
 <p>
-  O objeto da aplicação é apresentar novas tecnologias e práticas que estão sendo utilizadas no desenvolvimento de sistemas web
+  O objetivo da aplicação é apresentar novas tecnologias e práticas que estão sendo utilizadas no desenvolvimento de sistemas web
 </p>
 
 ---
